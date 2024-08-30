@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WebPage Xhinsade</title>
+</head>
+<h1> Welcome to Xhinsade HomePage</h1>
+<body>
+    <header> <h1>Personal Info</h1> </header>
+    <br>
+    <h1 id="person1"></h1>
+    <h1 id="person2"></h1>
+    <h1 id="person3"></h1>
+    <h1 id="person4"></h1>
+    <h1 id="person5"></h1>
+    <h1 id="person6"></h1>
+    <h1 id="person7"></h1>
+    <h1 id="person8"></h1>
+    
+
+    <script> 
+        const person ={
+    name: "Kristine Lopez",
+    yearlevel: "2nd Year ",
+    Course: "Object Oriented Programming",
+    address: "Purok 4, San Miguel, Manolo Fortich Bukidnon",
+    age: 20,
+    gender: "female",
+    hobby: "Arts",
+    mood: "Undefined",
+}
+    document.getElementById("person1").innerHTML = "Name:" + person.name;
+    document.getElementById("person2").innerHTML =  "YearLevel:" + person.yearlevel;
+    document.getElementById("person3").innerHTML = "Course" + person.Course;
+    document.getElementById("person4").innerHTML = "Address:" + person.address;
+    document.getElementById("person5").innerHTML = "Age:" + person.age;
+    document.getElementById("person6").innerHTML = "Gender:" + person.gender;
+    document.getElementById("person7").innerHTML =  "Hobby: " + person.hobby;
+    document.getElementById("person8").innerHTML = "Mood :" + person.mood;
+    </script>
+</body>
+</html>
